@@ -10,9 +10,22 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /*
  * Global layout stuff
  */
+
+main.container {
+  width: 450px;
+  height: 500px;
+  padding: 2em;
+  background-color: #FFFFFF;
+  margin: auto;
+  margin-top: 30px;
+}
 
 body {
   margin: 0;
