@@ -1,0 +1,35 @@
+
+article.user-tweet {
+  border: solid #eee;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+
+article.user-tweet header {
+  background: #eee;
+}
+
+h3.name{
+  display: inline-block;
+}
+
+span.handle{
+  float: right;
+}
+
+.user-tweet .tweet{
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+article.user-tweet.handle {
+  float: right;
+}
+
+
+.user-tweet footer .date-posted {
+  margin-top: 30px;
+  border-top: 1px solid #a9a9a9;
+  padding-left: 10px;
+
+}

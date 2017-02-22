@@ -20,7 +20,7 @@ html {
 
 main.container {
   width: 450px;
-  height: 500px;
+  height: 1000px;
   padding: 2em;
   background-color: #FFFFFF;
   margin: auto;
@@ -32,7 +32,6 @@ body {
   color: #244751;
   background-color: #eee;
 }
-
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
