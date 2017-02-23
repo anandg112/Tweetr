@@ -9,6 +9,7 @@ function renderTweets(tweets) {
    // loops through tweets
      // calls createTweetElement for each tweet
      // takes return value and appends it to the tweets container
+     $('#tweets-container').empty();
      for(let key of tweets){
        $tweet = createTweetElement(key);
        $('#tweets-container').prepend($tweet);
@@ -67,6 +68,7 @@ $(document).ready(function () {
       data: $form.serialize()
     })
     .then( () => {
+
       $('#new-tweet-text').val('');
       $('.new-tweet .counter').text(140);
       loadTweets();
