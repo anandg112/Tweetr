@@ -3,33 +3,56 @@ article.user-tweet {
   border: solid #eee;
   border-radius: 5px;
   margin: 20px 10px;
+  opacity: 0.8;
 }
 
 article.user-tweet header {
   background: #eee;
+  overflow: auto;
 }
 
-h3.name{
+.user-tweet .avatar {
   display: inline-block;
+  float: left;
 }
 
-span.handle{
+.user-tweet h3.name {
+  float:left;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.user-tweet span.handle {
   float: right;
 }
 
-.user-tweet .tweet{
+.user-tweet .tweet-text {
   margin-top: 30px;
   padding-left: 10px;
 }
 
-article.user-tweet.handle {
+.user-tweet .handle {
   float: right;
+  margin-top: 10px;
 }
 
+.footer {
+  overflow: auto;
+}
 
-.user-tweet footer .date-posted {
-  margin-top: 30px;
+.footer p {
   border-top: 1px solid #a9a9a9;
+  padding-top: 10px;
   padding-left: 10px;
+}
 
+.footer i {
+  visibility: hidden;
+  float: right;
+}
+
+.user-tweet:hover .footer i {
+  transition: 300ms;
+  visibility: visible;
+  opacity: 1.0
 }

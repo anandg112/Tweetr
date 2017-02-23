@@ -16,9 +16,13 @@ section.new-tweet > h2 {
 
 
 textarea {
-  width: 100%
+  width: 100%;
 }
 
 span.counter {
   float: right;
+}
+
+p {
+  word-break: break-all;
 }

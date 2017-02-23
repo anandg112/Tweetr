@@ -19,8 +19,8 @@ html {
  */
 
 main.container {
-  width: 450px;
-  height: 1000px;
+  width: 500px;
+  height: auto;
   padding: 2em;
   background-color: #FFFFFF;
   margin: auto;
