@@ -48,7 +48,7 @@ function renderTweets(tweets) {
 
 $(document).ready(function () {
   // var $tweet = createTweetElement(data);
-  //let tweet = $.get('/tweets');
+
   let $form = $('#new-tweet');
   $('#new-tweet').on('submit', (ev) => {
     ev.preventDefault();
@@ -68,6 +68,7 @@ $(document).ready(function () {
     })
     .then( () => {
       $('#new-tweet-text').val('');
+      $('.new-tweet .counter').text(140);
       loadTweets();
     })
 });
@@ -84,9 +85,10 @@ const loadTweets = () => {
 
 loadTweets();
 
-  $(".compose").click(function(){
-  $('.new-tweet').slideToggle('slow');
-  $('#new-tweet-text').focus();
-  });
+$(".compose").click(function(){
+$('.new-tweet').slideToggle('slow');
+$('#new-tweet-text').focus();
+});
+
 
 });

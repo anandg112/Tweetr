@@ -51,8 +51,12 @@ article.user-tweet header {
   float: right;
 }
 
-.user-tweet:hover .footer i {
+.user-tweet:hover {
   transition: 300ms;
   visibility: visible;
   opacity: 1.0
+}
+.user-tweet:hover .footer i {
+  transition: 300ms;
+  visibility: visible;
 }

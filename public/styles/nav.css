@@ -21,15 +21,19 @@
   line-height: 60px;
   font-size: 2em;
   float: left;
+  padding-left: 10px;
 }
 
 #nav-bar button{
   float: right;
   width:100px;
   height: 60px;
-  background-color: #FFFFCC;
+  background-color: rgb(200, 230, 201);
   border-radius: 5px;
-  padding-top: 20px;
+  padding: 10px 5px;
+  margin-top: 10px;
+  opacity: 0.5;
+  border: black solid 2px;
 }
 
 #nav-bar button .compose{
