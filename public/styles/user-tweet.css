@@ -38,15 +38,18 @@ article.user-tweet header {
 
 .footer {
   overflow: auto;
+  border-top: 1px solid #a9a9a9;
+  padding-top: 6px;
 }
 
 .footer p {
-  border-top: 1px solid #a9a9a9;
-  padding-top: 10px;
-  padding-left: 10px;
+  display: inline-block;
+  padding-left: 0.5em;
+  float: left;
+  margin: auto;
 }
 
-.footer i {
+.icons {
   visibility: hidden;
   float: right;
 }
