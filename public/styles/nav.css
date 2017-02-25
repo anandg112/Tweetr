@@ -1,7 +1,3 @@
-.nav-fixed-top{
-  border-width: 0px;
-}
-
 #nav-bar {
   height: 80px;
   width: 100%;
@@ -9,6 +5,9 @@
   color: #e8fdff;
   padding-left: 2em;
   padding-right: 2em;
+  position:fixed;
+  top:0;
+  z-index: 1000;
 }
 
 #nav-bar .logo {
