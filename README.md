@@ -8,12 +8,6 @@ The server is built with Node and Express and allows users to request and submit
 
 I implemented the HTML, CSS and client-side JS to bring this project to life.
 
-## Final Product
-
-The end result should look and function like this:
-
-!["End Result"](https://d.pr/i/1eyEY/4MEH16BY+)
-
 ## Getting Started
 
 1. Fork and clone your fork of this repository.
