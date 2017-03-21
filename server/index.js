@@ -21,7 +21,7 @@ MongoClient.connect(MONGODB_URI, (err, db) => {
     console.error(`Failed to connect: ${MONGODB_URI}`);
     throw err;
   }
-  app.listen(PORT, () => {
+  app.listen(process.env.PORT, () => {
     console.log("Example app listening on port " + PORT);
   });
   // The `data-helpers` module provides an interface to the database of tweets.
